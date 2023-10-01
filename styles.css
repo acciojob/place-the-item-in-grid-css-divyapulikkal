@@ -4,8 +4,8 @@
 
 .holder {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Two equal columns */
-  grid-template-rows: repeat(2, 1fr); /* Two equal rows */
+  grid-template-columns:100px 100px;
+  grid-template-rows:100px 100px; /* Two equal rows */
   width: 200px; /* Total size of the grid */
   height: 200px;
   gap: 10px; /* Optional gap between grid items */
